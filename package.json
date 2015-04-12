@@ -1,0 +1,32 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "grunt",
+    "features": "grunt features",
+    "watch": "grunt watcher"
+  },
+  "dependencies": {
+    "rupert": "^0.3.1",
+    "rupert-plugin-angular": "^0.1.3",
+    "rupert-plugin-bootstrap": "^0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "rupert-grunt": "^0.1.1"
+  },
+  "name": "rupert-example",
+  "description": "Playing with the Rupert framework",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ladydernhelm/rupert-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladydernhelm/rupert-example/issues"
+  },
+  "homepage": "https://github.com/ladydernhelm/rupert-example"
+}
